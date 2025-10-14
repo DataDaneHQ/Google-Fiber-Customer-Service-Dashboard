@@ -1,6 +1,12 @@
 # Google Fiber Customer Service Dashboard - BI Project
 
+<img src="Images/Readme_dashboard_mockup.jpg" alt="DB Mockup" height="300px">
+
+<br>
+
 **Status:** 🚧 Work in Progress - Planning Phase
+
+<br>
 
 ## Project Overview
 
