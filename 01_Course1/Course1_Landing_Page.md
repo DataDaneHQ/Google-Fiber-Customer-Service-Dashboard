@@ -5,10 +5,10 @@
 ## Phase 1: Planning
 
 **Tasks:**
-- [x] Stakeholder Requirements Document
-- [x] Stakeholder Follow-up Questions
-- [x] Project Requirements Document
-- [x] Strategy Document
+- [x] [Stakeholder Requirements Document](https://github.com/DataDaneHQ/Google-Fiber-Customer-Service-Dashboard/blob/main/01_Course1/01_Stakeholder_Requirements_Document.pdf "Stakeholder requirement document PDF")  
+- [x] [Stakeholder Follow-up Questions](https://github.com/DataDaneHQ/Google-Fiber-Customer-Service-Dashboard/blob/main/01_Course1/02_Follow_Up_Questions.pdf "Follow up questions PDF")  
+- [x] [Project Requirements Document](https://github.com/DataDaneHQ/Google-Fiber-Customer-Service-Dashboard/blob/main/01_Course1/03_Project_Requirements_Document.pdf "Project requiments document PDF")  
+- [x] [Strategy Document](https://github.com/DataDaneHQ/Google-Fiber-Customer-Service-Dashboard/blob/main/01_Course1/04_Strategy_Document.pdf "Strategy document PDF")  
 - [x] Milestone Plan
 
 ---
