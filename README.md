@@ -4,8 +4,8 @@
 
 <br>
 
-![Project Status](https://img.shields.io/badge/status-planning-yellow)
-![Phase](https://img.shields.io/badge/phase-1%20of%203-blue)
+![Project Status](https://img.shields.io/badge/Status-Data%20Preparation-yellow)
+![Phase](https://img.shields.io/badge/Phase-2%20of%203-blue)
 
 ## Project Overview
 
@@ -19,14 +19,18 @@ The team needs to understand how often customers call support again after their 
 
 The team's goal is to reduce call volume by increasing customer satisfaction and improving operations. The dashboard should demonstrate an understanding of this goal and provide stakeholders with insights about repeat caller volumes in different markets and the types of problems they represent.
 
-### Current Phase: Planning
+---
 
-**Phase 1 Tasks:**
-- [ ] Stakeholder Requirements Document
-- [ ] Stakeholder Follow-up Questions
-- [ ] Project Requirements Document
-- [ ] Strategy Document
-- [ ] Milestone Plan
+<br>
+
+### Phase 1: Planning
+
+**Tasks:**
+- [x] Stakeholder Requirements Document
+- [x] Stakeholder Follow-up Questions
+- [x] Project Requirements Document
+- [x] Strategy Document
+- [x] Milestone Plan
 
 ### Key Stakeholders
 
@@ -103,14 +107,16 @@ Stakeholders must have access to all datasets so they can explore the steps take
 
 ---
 
+<br>
+
 ## Timeline
 
-**Phase 1: Planning** (Current)
+**Phase 1: Planning** (Completed)
 - Document stakeholder requirements
 - Define project scope and strategy
 - Create milestone plan
 
-**Phase 2: Data Preparation** (Upcoming)
+**Phase 2: Data Preparation** (Current)
 - Assess data integrity and quality
 - Build ETL pipelines
 - Document data limitations
@@ -122,9 +128,10 @@ Stakeholders must have access to all datasets so they can explore the steps take
 
 ---
 
+<br>
 
 ## Contact
 
 This is a course project demonstrating end-to-end BI development process for portfolio purposes.
 
-**Last Updated:** 17/10/25
+**Last Updated:** 22/02/25
