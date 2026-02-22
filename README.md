@@ -1,6 +1,6 @@
 # Google Fiber Customer Service Dashboard - BI Project
 
-<img src="00_Resources/Google_Fiber_Banner.jpg" alt="readme_banner">
+<img src="00_Resources/Google_Fiber_Banner.png" alt="readme_banner">
 
 <br>
 
