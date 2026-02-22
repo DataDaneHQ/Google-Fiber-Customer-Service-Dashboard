@@ -11,6 +11,10 @@
 - [x] Strategy Document
 - [x] Milestone Plan
 
+---
+
+<br>
+
 ## Key Stakeholders
 
 | Name | Role |
@@ -22,6 +26,10 @@
 | Sylvie Essa | BI Analyst |
 
 *Primary contacts: Emma Santiago and Keith Portone*
+
+---
+
+<br>
 
 ## Available Datasets
 
@@ -52,6 +60,13 @@ This fictional dataset is a version of actual data the team works with. The data
 - Example: `contacts_n_6` indicates six days since first contact
 - Dataset records repeat calls over seven-day periods
 
+> [!NOTE]
+Stakeholders must have access to all datasets so they can explore the steps taken during the project.
+
+---
+
+<br>
+
 ## Project Goals
 
 **Primary Questions:**
@@ -64,6 +79,10 @@ This fictional dataset is a version of actual data the team works with. The data
 - A chart or table exploring repeat calls by market and problem type
 - Charts showcasing repeat calls by week, month, and quarter
 
+---
+
+<br>
+
 ## Dashboard Access
 
 People with dashboard-viewing privileges:
@@ -73,16 +92,14 @@ People with dashboard-viewing privileges:
 - Ian Ortega
 - Sylvie Essa
 
+<br>
+
 ## Accessibility Requirements
 
 Per Minna Rah's requirements, all dashboards must include:
 - Large print options
 - Text-to-speech alternatives
 - Colour-blind friendly visualisations
-
-## Project Approvals and Dependencies
-
-Stakeholders must have access to all datasets so they can explore the steps taken during the project.
 
 ---
 
