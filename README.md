@@ -1,6 +1,6 @@
 # Google Fiber Customer Service Dashboard - BI Project
 
-<img src="Images/Readme_dashboard_mockup.jpg" alt="DB Mockup" height="300px">
+<img src="00_Resources/Google_Fiber_Banner.jpg" alt="readme_banner">
 
 <br>
 
