@@ -38,6 +38,11 @@ The team's goal is to reduce call volume by increasing customer satisfaction and
 - Build interactive dashboard
 - Implement monitoring and iteration processes
 
+**Project Postmortem: Course vs. Reality** (Upcoming)
+- Evaluate course methodology vs. real-world efficiency: assess documentation redundancy and propose streamlined approaches  
+- **Identify reusable frameworks:** determine which templates and processes are worth standardising for future projects  
+- **Analyse tooling and automation opportunities:** where manual processes could be eliminated or improved  
+
 ---
 
 <br>
