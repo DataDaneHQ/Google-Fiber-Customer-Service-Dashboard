@@ -28,7 +28,7 @@ The team's goal is to reduce call volume by increasing customer satisfaction and
 - Define project scope and strategy
 - Create milestone plan
 
-**Phase 2: Data Preparation** (Current)
+[**Phase 2: Data Preparation**](https://github.com/DataDaneHQ/Google-Fiber-Customer-Service-Dashboard/blob/main/02_Course2/Course2_Landing_Page.md "Data Preparation Overview MD") (Current)
 - Assess data integrity and quality
 - Build ETL pipelines
 - Document data limitations
