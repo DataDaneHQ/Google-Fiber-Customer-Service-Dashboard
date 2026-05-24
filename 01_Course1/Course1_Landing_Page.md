@@ -1,15 +1,14 @@
-<img src="../00_Resources/Phase1_Banner.png" alt="phase1_banner">
+![Phase 1 Banner](../00_Resources/Phase1_Banner.png)
 
-<br>
+**Status:** ✅ Completed
 
-## Phase 1: Planning
+## Deliverables
 
-**Tasks:**
-- [x] [Stakeholder Requirements Document](https://github.com/DataDaneHQ/Google-Fiber-Customer-Service-Dashboard/blob/main/01_Course1/01_Stakeholder_Requirements_Document.pdf "Stakeholder requirement document PDF")  
-- [x] [Stakeholder Follow-up Questions](https://github.com/DataDaneHQ/Google-Fiber-Customer-Service-Dashboard/blob/main/01_Course1/02_Follow_Up_Questions.pdf "Follow up questions PDF")  
-- [x] [Project Requirements Document](https://github.com/DataDaneHQ/Google-Fiber-Customer-Service-Dashboard/blob/main/01_Course1/03_Project_Requirements_Document.pdf "Project requiments document PDF")  
-- [x] [Strategy Document](https://github.com/DataDaneHQ/Google-Fiber-Customer-Service-Dashboard/blob/main/01_Course1/04_Strategy_Document.pdf "Strategy document PDF")  
-- [x] Milestone Plan
+- [x] [Stakeholder Requirements Document](https://github.com/DataDaneHQ/google-fiber-bi-dashboard/blob/main/01_Course1/01_Stakeholder_Requirements_Document.pdf)  
+- [x] [Stakeholder Follow-up Questions](https://github.com/DataDaneHQ/google-fiber-bi-dashboard/blob/main/01_Course1/02_Follow_Up_Questions.pdf)  
+- [x] [Project Requirements Document](https://github.com/DataDaneHQ/google-fiber-bi-dashboard/blob/main/01_Course1/03_Project_Requirements_Document.pdf)  
+- [x] [Strategy Document](https://github.com/DataDaneHQ/google-fiber-bi-dashboard/blob/main/01_Course1/04_Strategy_Document.pdf)  
+- [x] Milestone Plan  
 
 ---
 
@@ -17,12 +16,12 @@
 
 ## Key Stakeholders
 
-| Name | Role |
-|------|------|
-| Emma Santiago | Hiring Manager |
-| Keith Portone | Project Manager |
-| Minna Rah | Lead BI Analyst |
-| Ian Ortega | BI Analyst |
+| Name | Role |  
+|------|------|  
+| Emma Santiago | Hiring Manager |  
+| Keith Portone | Project Manager |  
+| Minna Rah | Lead BI Analyst |  
+| Ian Ortega | BI Analyst |  
 | Sylvie Essa | BI Analyst |
 
 *Primary contacts: Emma Santiago and Keith Portone*
@@ -31,37 +30,16 @@
 
 <br>
 
-## Available Datasets
+## Dataset
 
-This fictional dataset is a version of actual data the team works with. The data is anonymised and approved.
+A fictionalised version of actual Google Fiber customer service data — anonymised and approved for use.
 
-**Data includes:**
-- Number of calls
-- Number of repeat calls after first contact
-- Call type
-- Market city
-- Date
-
-**Market cities:**
-- market_1
-- market_2
-- market_3
-
-**Problem types:**
-- Type_1: Account management
-- Type_2: Technician troubleshooting
-- Type_3: Scheduling
-- Type_4: Construction
-- Type_5: Internet and WiFi
-
-**Repeat call tracking:**
-- Initial contact date listed as `contacts_n`
-- Subsequent calls listed as `contacts_n_[number of days since first call]`
-- Example: `contacts_n_6` indicates six days since first contact
-- Dataset records repeat calls over seven-day periods
-
-> [!NOTE]
-Stakeholders must have access to all datasets so they can explore the steps taken during the project.
+| Dimension | Detail |  
+|-----------|--------|  
+| Market cities | market_1 · market_2 · market_3 |  
+| Problem types | Type_1: Account management · Type_2: Technician troubleshooting · Type_3: Scheduling · Type_4: Construction · Type_5: Internet and WiFi |  
+| Data fields | Number of calls · Repeat calls · Call type · Market city · Date |  
+| Repeat call tracking | Initial contact = `contacts_n` · Subsequent calls = `contacts_n_[days since first call]` e.g. `contacts_n_6` = six days after first contact · Tracked over seven-day periods |  
 
 ---
 
@@ -69,38 +47,28 @@ Stakeholders must have access to all datasets so they can explore the steps take
 
 ## Project Goals
 
-**Primary Questions:**
-1. How often does the customer service team receive repeat calls from customers?
-2. What problem types generate the most repeat calls?
-3. Which market city's customer service team receives the most repeat calls?
+**Primary questions:**  
+1. How often does the customer service team receive repeat calls?  
+2. What problem types generate the most repeat calls?  
+3. Which market city receives the most repeat calls?  
 
-**Required Deliverables:**
-- A chart or table measuring repeat calls by their first contact date
-- A chart or table exploring repeat calls by market and problem type
-- Charts showcasing repeat calls by week, month, and quarter
+**Required deliverables:**  
+- Repeat calls measured by first contact date  
+- Repeat calls broken down by market and problem type  
+- Repeat calls visualised by week, month, and quarter  
+
+---
+
+<br>
+
+## Dashboard Requirements
+
+**Access:** Emma Santiago · Keith Portone · Minna Rah · Ian Ortega · Sylvie Essa
+
+**Accessibility:** Per Minna Rah's requirements — large print options, text-to-speech alternatives, and colour-blind friendly visualisations required across all dashboards.
 
 ---
 
 <br>
 
-## Dashboard Access
-
-People with dashboard-viewing privileges:
-- Emma Santiago
-- Keith Portone
-- Minna Rah
-- Ian Ortega
-- Sylvie Essa
-
-<br>
-
-## Accessibility Requirements
-
-Per Minna Rah's requirements, all dashboards must include:
-- Large print options
-- Text-to-speech alternatives
-- Colour-blind friendly visualisations
-
----
-
-<br>
+[← Back to Main README](https://github.com/DataDaneHQ/google-fiber-bi-dashboard/blob/main/README.md)
