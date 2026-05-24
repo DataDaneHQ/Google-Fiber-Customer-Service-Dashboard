@@ -9,7 +9,7 @@
 
 Google Fiber's customer service team needed to understand why customers were calling support more than once — and where repeat call patterns differed across three market cities. Without that visibility, reducing call volume was guesswork.  
 
-This project follows the end-to-end BI development lifecycle — from stakeholder requirements and data preparation through to an interactive dashboard delivering repeat caller insights by market and problem type. Follow the repo to watch it develop in real time, including a planned postmortem comparing course methodology against real-world BI efficiency.
+Developed as part of the Google Business Intelligence Professional Certificate, this project follows the end-to-end BI development lifecycle — from stakeholder requirements and data preparation through to an interactive dashboard delivering repeat caller insights by market and problem type. Follow the repo to watch it develop in real time, including a planned postmortem comparing course methodology against real-world BI efficiency.
 
 **Tools:** SQL · ETL · Business Intelligence · Dashboard Design · Tableau
 
