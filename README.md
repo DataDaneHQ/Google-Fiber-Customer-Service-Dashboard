@@ -1,4 +1,4 @@
-![Google Fiber Banner](00_Resources/google_fiber_banner.jpg)
+![Google Fiber Banner](00_Resources/google_fiber_banner.png)
 
 *How do you reduce support call volume when you don't yet know why customers keep calling back?*
 
