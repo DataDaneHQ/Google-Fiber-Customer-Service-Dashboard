@@ -1,6 +1,6 @@
 ![Phase 1 Banner](../00_Resources/phase1_banner.png)
 
-**Status:** ✅ Completed
+![Project Status](https://img.shields.io/badge/Status-Completed-Green)
 
 ## Deliverables
 
