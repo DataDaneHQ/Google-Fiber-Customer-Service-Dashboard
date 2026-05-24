@@ -34,13 +34,20 @@
 
 A fictionalised version of actual Google Fiber customer service data — anonymised and approved for use.
 
-| Dimension | Detail |  
-|-----------|--------|  
-| Market cities | market_1 · market_2 · market_3 |  
-| Problem types | Type_1: Account management · Type_2: Technician troubleshooting · Type_3: Scheduling · Type_4: Construction · Type_5: Internet and WiFi |  
-| Data fields | Number of calls · Repeat calls · Call type · Market city · Date |  
-| Repeat call tracking | Initial contact = `contacts_n` · Subsequent calls = `contacts_n_[days since first call]` e.g. `contacts_n_6` = six days after first contact · Tracked over seven-day periods |  
+| Dimension | Detail |
+|-----------|--------|
+| Market cities | market_1 · market_2 · market_3 |
+| Problem types | See below |
+| Data fields | Number of calls · Repeat calls · Call type · Market city · Date |
+| Repeat call tracking | Initial contact = `contacts_n` · Subsequent calls = `contacts_n_[days since first call]` e.g. `contacts_n_6` = six days after first contact · Tracked over seven-day periods |
 
+| Problem Type | Description |
+|--------------|-------------|
+| Type_1 | Account management |
+| Type_2 | Technician troubleshooting |
+| Type_3 | Scheduling |
+| Type_4 | Construction |
+| Type_5 | Internet and WiFi |
 ---
 
 <br>
