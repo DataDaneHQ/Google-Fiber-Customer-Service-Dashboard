@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Ignore Local File
+Local/
+02_Course2/Phase2_Project_Notes.docx
