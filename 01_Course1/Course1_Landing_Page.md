@@ -34,20 +34,34 @@
 
 A fictionalised version of actual Google Fiber customer service data — anonymised and approved for use.
 
-| Dimension | Detail |
-|-----------|--------|
-| Market cities | market_1 · market_2 · market_3 |
-| Problem types | See below |
-| Data fields | Number of calls · Repeat calls · Call type · Market city · Date |
-| Repeat call tracking | Initial contact = `contacts_n` · Subsequent calls = `contacts_n_[days since first call]` e.g. `contacts_n_6` = six days after first contact · Tracked over seven-day periods |
+**Data includes:**  
+- Number of calls  
+- Number of repeat calls after first contact  
+- Call type  
+- Market city  
+- Date
 
-| Problem Type | Description |
-|--------------|-------------|
-| Type_1 | Account management |
-| Type_2 | Technician troubleshooting |
-| Type_3 | Scheduling |
-| Type_4 | Construction |
-| Type_5 | Internet and WiFi |
+**Market cities:**  
+- market_1  
+- market_2  
+- market_3
+
+**Problem types:**  
+- Type_1: Account management  
+- Type_2: Technician troubleshooting  
+- Type_3: Scheduling  
+- Type_4: Construction  
+- Type_5: Internet and WiFi 
+
+**Repeat call tracking:**  
+- Initial contact date listed as `contacts_n`  
+- Subsequent calls listed as `contacts_n_[number of days since first call]`  
+- Example: `contacts_n_6` indicates six days since first contact  
+- Dataset records repeat calls over seven-day periods  
+
+> [!NOTE]
+Stakeholders must have access to all datasets so they can explore the steps taken during the project.
+
 ---
 
 <br>
