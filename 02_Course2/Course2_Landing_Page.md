@@ -1,46 +1,44 @@
 <img src="../00_Resources/Phase2_Banner.png" alt="phase1_banner">
 
-<br>
+![Project Status](https://img.shields.io/badge/Status-In%20Progress-blue)
 
-## Phase 2: Data Preparation
-
-Phase 1 produced the planning documents — stakeholder needs, KPIs, and expectations. Phase 2 is about taking raw data and shaping it into a clean reporting table that the dashboard (Phase 3) will sit on top of. Get this wrong and the dashboard is built on sand, so it's worth being methodical.
-
-**Tasks:**  
-- [ ] **Understand the source data** — What tables do we have? What do they contain? What is the grain of each table?  
-- [ ] **Upload data to BigQuery** — Create a project space and upload the three market datasets ready for querying.  
-- [ ] **Identify joins and transformations** — How do the tables relate? What cleaning, filtering, or derived fields are needed?  
-- [ ] **Write the SQL** — Combine everything into a single reporting table via BigQuery.  
-- [ ] **Validate the output** — Does the reporting table answer the stakeholder questions established in Phase 1?  
+Phase 1 produced the planning documents — stakeholder needs, KPIs, and expectations. Phase 2 is about taking raw data and shaping it into a clean reporting table that the dashboard in Phase 3 will sit on top of. Get this wrong and the dashboard is built on sand.
 
 ---
 
 <br>
 
-## Source Data Exploration  
+## Tasks
 
-_This section will document findings from initial exploration of the three market
-datasets. To be completed once data has been reviewed._
+- [ ] Understand the source data — tables, contents, and grain of each  
+- [ ] Upload data to BigQuery — create project space and load the three market datasets  
+- [ ] Identify joins and transformations — table relationships, cleaning, filtering, and derived fields required  
+- [ ] Write the SQL — combine into a single reporting table via BigQuery  
+- [ ] Validate the output — does the reporting table answer the stakeholder questions from Phase 1?
 
+---
 
-### Dataset Overview
+<br>
+
+## Source Data Exploration
+
+*To be completed once data has been reviewed.*
 
 | Dataset | Description | Row Count | Date Range |
 |---------|-------------|-----------|------------|
-| market_1 | _TBC_ | _TBC_ | _TBC_ |
-| market_2 | _TBC_ | _TBC_ | _TBC_ |
-| market_3 | _TBC_ | _TBC_ | _TBC_ |
+| market_1 | TBC | TBC | TBC |
+| market_2 | TBC | TBC | TBC |
+| market_3 | TBC | TBC | TBC |
 
-### Table Grain
-
-One row per market / date / problem type.
+**Table grain:** One row per market / date / problem type.
 
 ---
 
 <br>
 
-
 ## Data Schema & Table Relationships
+
+All three market tables share an identical schema — combined via `UNION ALL`.
 
 ```
 market_1 ─┐
@@ -49,16 +47,13 @@ market_2 ─┤
 market_3 ─┘
 ```
 
-All three tables share an identical schema. Combined via `UNION ALL` — same structure,
-different markets.
-
 ---
 
 <br>
 
 ## BigQuery: Reporting Table
 
-### SQL
+**SQL**
 
 ```sql
 SELECT
@@ -105,12 +100,16 @@ SELECT
 FROM market_3;
 ```
 
-### Validation
+**Validation Checklist**
 
-- [ ] Data present from all three markets
-- [ ] All five problem types represented
-- [ ] Row count matches sum of source tables
-- [ ] No nulls introduced by the union
-- [ ] Reporting table answers the three core stakeholder questions from Phase 1
+- [ ] Data present from all three markets  
+- [ ] All five problem types represented  
+- [ ] Row count matches sum of source tables  
+- [ ] No nulls introduced by the union  
+- [ ] Reporting table answers the three core stakeholder questions from Phase 1  
+
+---
 
 <br>
+
+[← Back to Main README](https://github.com/DataDaneHQ/google-fiber-bi-dashboard/blob/main/README.md)
