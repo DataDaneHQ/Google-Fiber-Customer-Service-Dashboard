@@ -1,4 +1,4 @@
-![Phase 1 Banner](../00_Resources/Phase1_Banner.png)
+![Phase 1 Banner](../00_Resources/phase1_banner.png)
 
 **Status:** ✅ Completed
 
