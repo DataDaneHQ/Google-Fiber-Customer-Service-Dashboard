@@ -57,47 +57,50 @@ market_3 ─┘
 
 ```sql
 SELECT
-    'market_1' AS market,
-    date,
-    problem_type,
+    new_market,
+    date_created,
+    new_type,
     contacts_n,
     contacts_n_1,
     contacts_n_2,
     contacts_n_3,
     contacts_n_4,
     contacts_n_5,
-    contacts_n_6
-FROM market_1
+    contacts_n_6,
+    contacts_n_7
+FROM `my-project-id.my_dataset.market_1`
 
 UNION ALL
 
 SELECT
-    'market_2' AS market,
-    date,
-    problem_type,
+    new_market,
+    date_created,
+    new_type,
     contacts_n,
     contacts_n_1,
     contacts_n_2,
     contacts_n_3,
     contacts_n_4,
     contacts_n_5,
-    contacts_n_6
-FROM market_2
+    contacts_n_6,
+    contacts_n_7
+FROM `my-project-id.my_dataset.market_2`
 
 UNION ALL
 
 SELECT
-    'market_3' AS market,
-    date,
-    problem_type,
+    new_market,
+    date_created,
+    new_type,
     contacts_n,
     contacts_n_1,
     contacts_n_2,
     contacts_n_3,
     contacts_n_4,
     contacts_n_5,
-    contacts_n_6
-FROM market_3;
+    contacts_n_6,
+    contacts_n_7
+FROM `my-project-id.my_dataset.market_3`;
 ```
 
 **Validation Checklist**

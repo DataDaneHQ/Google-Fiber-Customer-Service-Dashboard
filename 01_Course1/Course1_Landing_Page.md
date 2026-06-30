@@ -76,7 +76,7 @@ Stakeholders must have access to all datasets so they can explore the steps take
 **Required deliverables:**  
 - Repeat calls measured by first contact date  
 - Repeat calls broken down by market and problem type  
-- Repeat calls visualised by week, month, and quarter  
+- Repeat calls visualised by week, month, quarter, and year  
 
 ---
 
